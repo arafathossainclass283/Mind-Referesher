@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`http://mindreferesher.local/` + encodeURI(path as string)
+					`https://mindrefereshera2z.blogspot.com/` + encodeURI(path as string)
 				}`,
 			},
 		};
